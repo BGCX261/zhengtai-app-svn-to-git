@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">人人都爱正太君</string>
+    
+    <string name="cancel">否</string>
+    <string name="confirm">是</string>
+    
+    <string name="exit_title">退出应用</string>
+    <string name="exit_info">亲，要退出了吗???</string>
+    
+</resources>

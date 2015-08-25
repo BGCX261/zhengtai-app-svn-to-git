@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="60dp">
+	
+	<LinearLayout android:id="@+id/listnextpage" android:orientation="vertical" android:layout_width="fill_parent" android:background="@drawable/vlist_bg" android:layout_height="60dp">
+		<TextView android:gravity="center" android:text="查看更多" android:layout_width="fill_parent" android:layout_height="60dp" android:textColor="#FF232323" android:textSize="20dp" />
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/listloading" android:gravity="center" android:visibility="gone" android:orientation="horizontal" android:layout_width="fill_parent" android:background="@drawable/vlist_bg" android:layout_height="60dp">
+      <ProgressBar android:layout_width="24dp" android:layout_height="24dp" style="@android:style/Widget.ProgressBar.Small.Inverse" />
+      <TextView android:text="载入中..." android:gravity="center" android:layout_width="100dp" android:layout_height="60dp" android:textColor="#FF232323" android:textSize="20dp" />
+	</LinearLayout>
+	
+</LinearLayout> 
+

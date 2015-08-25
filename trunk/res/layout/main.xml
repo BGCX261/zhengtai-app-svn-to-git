@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+   	<TabHost xmlns:android="http://schemas.android.com/apk/res/android" 
+   		android:id="@+id/tabhost"
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content">
+
+			<LinearLayout  
+	        android:orientation="vertical"  
+	        android:layout_width="fill_parent"  
+	        android:layout_height="fill_parent">  
+	
+				<TabWidget 
+	            android:id="@android:id/tabs" 
+	            android:layout_width="fill_parent"  
+	            android:layout_height="0dp">
+				</TabWidget> 
+	        
+				
+				<RelativeLayout android:id="@+id/Relativelayout01"
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" >
+				
+	        	<FrameLayout  
+	            android:id="@android:id/tabcontent"  
+	            android:layout_width="fill_parent"  
+	            android:layout_height="fill_parent" android:paddingBottom="49dp">
+	        	</FrameLayout>
+	        	
+	        	<LinearLayout android:id="@+id/XiaDaoHang"  android:layout_alignBottom="@android:id/tabcontent"
+				android:orientation="vertical"
+		        android:layout_height="49dp" android:layout_width="fill_parent" android:background="@drawable/btm1">
+					
+					<LinearLayout android:orientation="horizontal" android:layout_height="49dp" android:layout_width="fill_parent" android:background="@android:color/transparent" >
+						
+						<TextView android:id="@+id/b1" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="49dp"
+						android:paddingTop="28dp" android:layout_marginTop="0dp" android:background="@drawable/icon_1_on" android:scaleType="fitXY" android:text="挑正太" android:textSize="13dp" android:textColor="@color/Bbai" android:gravity="center|top"/> 
+						
+						<TextView android:id="@+id/b2" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="49dp"
+						android:paddingTop="28dp" android:layout_marginTop="0dp" android:background="@drawable/icon_2_off" android:scaleType="fitXY" android:text="体验..." android:textSize="13dp" android:textColor="@color/huizi" android:gravity="center|top"/> 
+						
+						<TextView android:id="@+id/b3" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="49dp"
+						android:paddingTop="28dp" android:layout_marginTop="0dp" android:background="@drawable/icon_3_off" android:scaleType="fitXY" android:text="我的正太" android:textSize="13dp" android:textColor="@color/huizi" android:gravity="center|top"/> 
+					
+						<TextView android:id="@+id/b4" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="49dp"
+						android:paddingTop="28dp" android:layout_marginTop="0dp" android:background="@drawable/icon_4_off" android:scaleType="fitXY" android:text="更多" android:textSize="13dp" android:textColor="@color/huizi" android:gravity="center|top"/> 
+					
+					</LinearLayout>
+					
+					<TextView android:visibility="gone" android:id="@+id/b5" android:layout_width="50dp" android:layout_height="5dp"
+						android:layout_marginTop="-5dp" android:layout_marginLeft="28dp" android:background="#4e739c" android:scaleType="fitXY" android:text="" /> 
+
+				</LinearLayout>
+				
+	        	
+	        	</RelativeLayout>
+
+			</LinearLayout>  
+
+			
+			
+	</TabHost>

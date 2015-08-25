@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout03" android:layout_width="fill_parent"  android:orientation="vertical"
+    android:layout_height="fill_parent">
+
+	<LinearLayout
+			android:orientation="horizontal"
+		    android:layout_height="47dp" android:layout_width="fill_parent" android:background="@drawable/top">
+		    
+		<TextView android:layout_width="fill_parent" android:layout_height="42dp" android:text="我们都爱正太君" android:textSize="22dp" android:textColor="@color/Bbai" android:gravity="center" android:id="@+id/top_title" />
+		
+	</LinearLayout>
+	
+	
+	<LinearLayout
+			android:orientation="vertical"
+		    android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" >
+		    
+		    <TextView android:layout_width="fill_parent" android:layout_height="32dp" android:text="设置" android:textSize="18dp" android:textColor="@color/Bhong" android:layout_marginTop="16dp" />
+			<TextView android:layout_width="fill_parent" android:layout_height="2dp" android:text="" android:background="@color/Bhong"/>
+			
+			<TextView android:layout_width="fill_parent" android:layout_height="40dp" android:text="设置访问密码1" android:textSize="16dp" android:textColor="@color/Bhong2" android:layout_marginTop="6dp" android:background="@drawable/bg_more_item" android:clickable="true" android:gravity="left|center" />
+			<TextView android:layout_width="fill_parent" android:layout_height="40dp" android:text="意见反馈" android:textSize="16dp" android:textColor="@color/Bhong2" android:background="@drawable/bg_more_item" android:clickable="true" android:gravity="left|center" />
+			<TextView android:layout_width="fill_parent" android:layout_height="40dp" android:text="关于我们" android:textSize="16dp" android:textColor="@color/Bhong2" android:background="@drawable/bg_more_item" android:clickable="true" android:gravity="left|center" />
+			
+			
+			
+			<TextView android:layout_width="fill_parent" android:layout_height="32dp" android:text="应用推荐" android:textSize="18dp" android:textColor="@color/Bhong" android:layout_marginTop="40dp" />
+			<TextView android:layout_width="fill_parent" android:layout_height="2dp" android:text="" android:background="@color/Bhong" />
+			
+			
+			
+		
+	</LinearLayout>
+	
+
+	
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#00ff0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="white">#ffffffff</color>
+    <color name="hui">#ff4a4a4a</color>
+   	<color name="huizi">#ffcacaca</color>
+   	<color name="touming">#00000000</color>
+   	
+   	
+   	<color name="bg_bai">#f3f1e8</color>
+   	<color name="text_hei">#333333</color>
+   	<color name="text_hei2">#666666</color>
+   	<color name="text_hui">#999999</color>
+   	<color name="text_lan">#4073ab</color>
+   	
+   	<color name="zong">#ff3D241D</color>
+   	<color name="hong">#ff9E1B36</color>
+   	<color name="fen">#ffEB3355</color>
+   	<color name="cheng">#ffE59B3D</color>
+   	<color name="bai">#ffF7EDBA</color>
+   	
+   	<color name="bai2">#ffEAEAEA</color>
+   	
+   	<color name="Bshenlan">#ff212B40</color>
+   	<color name="Blan">#ff547B97</color>
+   	<color name="Bqianlan">#ffBADCDD</color>
+   	<color name="Bqianlan2">#ff9fd4d6</color>
+   	<color name="Bbai">#ffFFFFFF</color>
+   	<color name="Blv">#ffC2E078</color>
+   	<color name="Blanbian">#ff9ed3f9</color>
+   	<color name="Bhong">#ffc9485b</color>
+   	<color name="Bhong2">#ffb5616e</color>
+   	<color name="Bhong3">#fffde2e6</color>
+   	
+   	<color name="toplan">#ff4e739c</color>
+   	<color name="new_price">#fff26e05</color>
+   	<color name="new_price_info">#ffa53c03</color>
+</resources>
